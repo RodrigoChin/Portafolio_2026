@@ -1,0 +1,85 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 6130 >>
+stream
+0.11 0.38 0.76 rg 40 808 515 4 re f
+0.07 0.15 0.28 rg /F2 18.1 Tf 1 0 0 1 42 794 Tm (RODRIGO ISRAEL CHIN L\323PEZ) Tj
+0.11 0.38 0.76 rg /F2 9.2 Tf 1 0 0 1 42 774 Tm (DESARROLLADOR FULL STACK WEB Y M\323VIL  |  IA APLICADA Y AUTOMATIZACI\323N) Tj
+0.15 0.20 0.30 rg /F1 8.2 Tf 1 0 0 1 42 757 Tm (M\351rida, Yucat\341n, M\351xico   |   +52 999 991 1685   |   rodrigochin@live.com.mx) Tj
+0.78 0.83 0.9 RG 0.55 w 42 739 m 553 739 l S
+0.10 0.29 0.52 rg /F2 10.1 Tf 1 0 0 1 42 720 Tm (PERFIL PROFESIONAL) Tj
+0.78 0.83 0.9 RG 0.55 w 42 712 m 553 712 l S
+0.15 0.20 0.30 rg /F1 8.6 Tf 1 0 0 1 43 697 Tm (Ingeniero de software enfocado en aplicaciones empresariales web y m\363viles, automatizaci\363n de procesos e) Tj
+0.15 0.20 0.30 rg /F1 8.6 Tf 1 0 0 1 43 684.4 Tm (integraci\363n pr\341ctica de IA. Experiencia en Ruby on Rails, React Native, PHP y PostgreSQL; dise\361o de flujos de) Tj
+0.15 0.20 0.30 rg /F1 8.6 Tf 1 0 0 1 43 671.8 Tm (aprobaci\363n, autenticaci\363n y permisos. Coordin\351 a dos desarrolladores, gestionando requerimientos, prioridades y) Tj
+0.15 0.20 0.30 rg /F1 8.6 Tf 1 0 0 1 43 659.1999999999999 Tm (entregables con gerencia. Combino ejecuci\363n t\351cnica y visi\363n de negocio.) Tj
+0.10 0.29 0.52 rg /F2 10.1 Tf 1 0 0 1 42 642.5999999999999 Tm (COMPETENCIAS T\311CNICAS) Tj
+0.78 0.83 0.9 RG 0.55 w 42 634.5999999999999 m 553 634.5999999999999 l S
+0.15 0.20 0.30 rg /F2 8.4 Tf 1 0 0 1 43 619.5999999999999 Tm (Frontend y m\363vil:) Tj
+0.15 0.20 0.30 rg /F1 8.1 Tf 1 0 0 1 172 619.5999999999999 Tm (React Native, Expo, Flutter, React, Vue, TypeScript, JavaScript, HTML/CSS.) Tj
+0.15 0.20 0.30 rg /F2 8.4 Tf 1 0 0 1 43 605.5999999999999 Tm (Backend y datos:) Tj
+0.15 0.20 0.30 rg /F1 8.1 Tf 1 0 0 1 172 605.5999999999999 Tm (Ruby on Rails, PHP, Laravel, APIs REST, JWT, PostgreSQL, MySQL.) Tj
+0.15 0.20 0.30 rg /F2 8.4 Tf 1 0 0 1 43 591.5999999999999 Tm (IA y automatizaci\363n:) Tj
+0.15 0.20 0.30 rg /F1 8.1 Tf 1 0 0 1 172 591.5999999999999 Tm (TensorFlow, ML Kit / OCR, Power Apps, Power Automate, PHPRunner.) Tj
+0.15 0.20 0.30 rg /F2 8.4 Tf 1 0 0 1 43 577.5999999999999 Tm (Infraestructura y gesti\363n:) Tj
+0.15 0.20 0.30 rg /F1 8.1 Tf 1 0 0 1 172 577.5999999999999 Tm (AWS EC2 / RDS, Git, levantamiento de requerimientos, arquitectura de flujos.) Tj
+0.10 0.29 0.52 rg /F2 10.1 Tf 1 0 0 1 42 555.5999999999999 Tm (EXPERIENCIA PROFESIONAL) Tj
+0.78 0.83 0.9 RG 0.55 w 42 547.5999999999999 m 553 547.5999999999999 l S
+0.09 0.18 0.32 rg /F2 9.7 Tf 1 0 0 1 43 532.5999999999999 Tm (Desarrollador Full Stack / Aplicaciones m\363viles | Grupo Orve) Tj
+0.35 0.43 0.55 rg /F1 8.1 Tf 1 0 0 1 43 519.5999999999999 Tm (Enero 2026 - Actualidad) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 46 506.5999999999999 Tm (- Desarrollo de soluciones empresariales con Ruby on Rails, PostgreSQL y React Native; participaci\363n en pagos) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 57 495.0999999999999 Tm (y verificaci\363n de identidad \(KYC\), incluida extracci\363n documental con ML Kit / OCR.) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 46 481.5999999999999 Tm (- Contribuci\363n a Orve GO: autenticaci\363n y biometr\355a, permisos por rol, experiencias m\363vil/web, solicitudes de) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 57 470.0999999999999 Tm (compra y dise\361o de cadenas de aprobaci\363n configurables.) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 46 456.5999999999999 Tm (- An\341lisis de SIP en Power Apps y Power Automate; documentaci\363n de m\363dulos, relaciones y flujos en Markdown) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 57 445.0999999999999 Tm (para soporte con IA. Consulta en tiempo real pendiente.) Tj
+0.09 0.18 0.32 rg /F2 9.7 Tf 1 0 0 1 43 426.5999999999999 Tm (Coordinador de Desarrollo de Software | Grupo Rocasa Peninsular / AT&T) Tj
+0.35 0.43 0.55 rg /F1 8.1 Tf 1 0 0 1 43 413.5999999999999 Tm (2023 - 2025) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 46 400.5999999999999 Tm (- Coordinaci\363n de dos desarrolladores: levantamiento de requerimientos, definici\363n de alcance, priorizaci\363n,) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 57 389.0999999999999 Tm (asignaci\363n de tareas y comunicaci\363n directa con gerencia.) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 46 375.5999999999999 Tm (- Desarrollo de plataforma de reclutamiento con PHP, MySQL y JavaScript: aspirantes, vacantes, estados, roles) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 57 364.0999999999999 Tm (y reportes exportables a Excel.) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 46 350.5999999999999 Tm (- Automatizaci\363n con PHP / PHPRunner de movimientos de personal: validaciones, actualizaciones y avisos por) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 57 339.0999999999999 Tm (correo tras autorizaci\363n.) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 46 325.5999999999999 Tm (- Integraci\363n de comparaci\363n de patrones faciales con TensorFlow en un flujo empresarial.) Tj
+0.09 0.18 0.32 rg /F2 9.7 Tf 1 0 0 1 43 307.0999999999999 Tm (Desarrollador Full Stack / M\363vil | Freelance y proyectos independientes) Tj
+0.35 0.43 0.55 rg /F1 8.1 Tf 1 0 0 1 43 294.0999999999999 Tm (Enero 2024 - Actualidad) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 46 281.0999999999999 Tm (- Desarrollo de Vitalia con Flutter, desde arquitectura inicial hasta flujos funcionales y despliegue.) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 46 267.5999999999999 Tm (- Registro de asistencia con geolocalizaci\363n y evidencia fotogr\341fica; aplicaciones con biometr\355a y operaci\363n) Tj
+0.15 0.20 0.30 rg /F1 8.4 Tf 1 0 0 1 57 256.0999999999999 Tm (offline.) Tj
+0.10 0.29 0.52 rg /F2 10.1 Tf 1 0 0 1 42 237.5999999999999 Tm (EDUCACI\323N E IDIOMAS) Tj
+0.78 0.83 0.9 RG 0.55 w 42 229.5999999999999 m 553 229.5999999999999 l S
+0.15 0.20 0.30 rg /F1 8.35 Tf 1 0 0 1 43 214.5999999999999 Tm (Ingenier\355a en Sistemas Computacionales - UTEL Universidad \(2021-2025; documentaci\363n de titulaci\363n en tr\341mite\).) Tj
+0.15 0.20 0.30 rg /F1 8.35 Tf 1 0 0 1 43 201.99999999999991 Tm (Certificaci\363n Desarrollador Full Stack - Udemy \(2024\). Espa\361ol nativo | Ingl\351s intermedio \(B1\).) Tj
+0.47 0.53 0.63 rg /F1 7.4 Tf 1 0 0 1 450 34 Tm (CV profesional | Octubre 2026) Tj
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000348 00000 n 
+0000000450 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+6631
+%%EOF
