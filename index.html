@@ -57,6 +57,71 @@ section.content-section{padding-top:112px}.eyebrow{font:500 11px "IBM Plex Mono"
 .project-media img{filter:none!important;object-fit:contain;background:#141917}
 .project-card:hover .project-media img{transform:none}
 .visual-tag{font-size:10px;letter-spacing:.045em}
+
+/* Mobile-first hardening: Engineering Editorial */
+html,body{max-width:100%;overflow-x:clip}
+img,svg{max-width:100%}
+.wrap,.hero>*,.project-card,.project-content,.info-card,.contact>*{min-width:0}
+.project-content,.info-card,.contact{overflow-wrap:anywhere}
+@media(max-width:950px){
+ .hero{grid-template-columns:minmax(0,1fr);gap:12px}
+ .project-card:first-child{display:flex;flex-direction:column}
+ .project-card:first-child .project-media{height:auto;aspect-ratio:1.84}
+}
+@media(max-width:850px){
+ .nav{min-height:68px}
+ .nav-links{top:100%;padding:12px max(17px,env(safe-area-inset-left)) 18px;max-height:calc(100dvh - 68px);overflow-y:auto;flex-direction:column;align-items:stretch;gap:2px}
+ .nav-links.open{display:flex}
+ .nav-links a{display:flex;align-items:center;min-height:46px;padding:12px 14px;font-size:12px}
+ .nav-actions{margin-left:auto}
+ .nav-actions .cv-top{display:none}
+ .menu-button{display:grid}
+ .hero{padding-block:48px 22px}
+ .stack-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .projects{grid-template-columns:minmax(0,1fr)}
+ .bio-grid{grid-template-columns:minmax(0,1fr)}
+}
+@media(max-width:650px){
+ .wrap{width:calc(100% - 36px)}
+ .nav{gap:10px}
+ .brand{gap:9px;min-width:0}
+ .brand-name{font-size:12px}
+ .hero h1{font-size:clamp(46px,13.5vw,80px);letter-spacing:-.075em;overflow-wrap:normal}
+ .hero-role{font-size:clamp(17px,5vw,21px)}
+ .hero-art{min-height:0;width:100%;max-width:440px}
+ .floating-pill{font-size:9px;padding:7px 8px;max-width:52%}
+ .pill-a{left:0}.pill-b{right:0}.pill-c{left:1%}
+ .hero-actions{display:grid;grid-template-columns:1fr;gap:10px}
+ .hero-actions .btn{width:100%;min-height:46px}
+ .hero-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px 8px;margin-top:30px}
+ .hero-stat{min-width:0}
+ .stack-grid{grid-template-columns:minmax(0,1fr)}
+ section.content-section{padding-top:72px}
+ .bio-section{padding-top:75px}
+ .section-head{display:block}
+ .section-head h2,.bio-section h2,.contact h2{font-size:clamp(30px,9vw,42px)}
+ .filterbar{overflow-x:auto;flex-wrap:nowrap;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+ .filterbar button{flex:none;min-height:44px;padding:12px 15px}
+ .project-card:first-child .project-content{padding:20px}
+ .project-card:first-child .project-content h3{font-size:clamp(27px,8vw,34px)}
+ .project-content h3{font-size:clamp(23px,7vw,30px)}
+ .project-media,.project-card:first-child .project-media{aspect-ratio:1.6}
+ .project-content{padding:20px}
+ .info-card{padding:22px}
+ .contact{margin-block:55px 35px;padding:24px}
+ .contact .btn{width:100%;min-height:46px}
+ .footer{gap:10px;padding-bottom:max(30px,env(safe-area-inset-bottom))}
+}
+@media(max-width:360px){
+ .wrap{width:calc(100% - 28px)}
+ .hero h1{font-size:clamp(43px,13vw,50px)}
+ .brand-name small{font-size:8px}
+ .nav-actions{gap:6px}
+ .icon-button{width:44px;height:44px}
+ .floating-pill{font-size:8px}
+ .hero-stats{grid-template-columns:1fr 1fr}
+}
+@media(hover:none){.project-card:hover,.btn:hover{transform:none}}
 </style></head><body>
 <a href="#inicio" class="skip">Saltar al contenido</a><div class="progress" id="progress"></div>
 <header><div class="wrap nav"><a class="brand" href="#inicio" aria-label="Rodrigo Chin, inicio"><span class="monogram">RC</span><span class="brand-name">Rodrigo Chin<small>Full Stack Developer</small></span></a><nav id="mainnav" class="nav-links" aria-label="Navegación principal"><a class="active" href="#inicio">Inicio</a><a href="#stack">Tecnologías</a><a href="#proyectos">Proyectos</a><a href="#experiencia">Experiencia</a><a href="#contacto">Contacto</a></nav><div class="nav-actions"><button id="themeToggle" class="icon-button" type="button" aria-label="Activar modo claro" title="Cambiar tema"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 15.5A8 8 0 0 1 8.5 4 8.3 8.3 0 1 0 20 15.5Z"/></svg></button><a class="btn btn-primary cv-top" href="CV_Rodrigo_Chin.pdf" download><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 18v3h16v-3"/></svg> Descargar CV</a><button id="menuToggle" class="icon-button menu-button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainnav"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div></div></header>
