@@ -1,0 +1,45 @@
+:root {
+  --bg: #11241f; --bg2: #172d26; --card: #1a3029; --panel: #284037;
+  --ink: #faf5e9; --muted: #c2cec3; --line: #42594d;
+  --accent: #f1b78c; --accent2: #f6c9a3; --nav: #11241ff5;
+}
+html[data-theme="light"] {
+  --bg: #f8f6ed; --bg2: #edece0; --card: #fffdf6; --panel: #e5eade;
+  --ink: #18372b; --muted: #495e50; --line: #bbc7b9;
+  --accent: #865031; --accent2: #744527; --nav: #f8f6edf5;
+}
+html[data-theme="light"] .btn-primary {color: white}
+.intro {display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:clamp(32px,5vw,88px);padding-block:clamp(44px,7vw,110px)}
+.kicker,.feature small {font:600 .76rem/1.6 "IBM Plex Mono",monospace;letter-spacing:.065em;text-transform:uppercase}
+.kicker {color:var(--muted)}
+.intro h1,.section-head h2,.bio-section h2,.contact h2,.project-content h3 {font-family:Georgia,serif;font-weight:400;letter-spacing:-.045em}
+.intro h1 {margin:.22em 0;font-size:clamp(4rem,7.7vw,7.7rem);line-height:.94}
+.intro h1 span {color:var(--accent)}
+.intro-role {font-weight:650;font-size:clamp(1.1rem,2vw,1.55rem);margin-bottom:.5em}
+.intro-copy {color:var(--muted);font-size:1rem;max-width:52ch}
+.intro-actions {display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.feature {background:#254537;color:#fff8ea;display:block;overflow:hidden;border-radius:4px}
+.feature img {display:block;width:100%;height:auto;aspect-ratio:1.55;object-fit:cover}
+.feature div {padding:18px 24px 22px}
+.feature strong {display:flex;align-items:center;justify-content:space-between;font:400 2.7rem/1.2 Georgia,serif}
+.feature strong span {font:1.6rem sans-serif}
+.feature p {margin:4px 0 0}
+#proyectos {padding-top:40px;border-top:1px solid var(--line)}
+.projects>.project-card:first-child {display:flex;grid-column:auto;flex-direction:column}
+.projects .project-card .project-media {min-height:0;aspect-ratio:1.84; height:auto}
+.projects .project-card .project-content {padding:clamp(18px,2vw,30px)}
+.projects .project-card .project-content h3 {font-size:clamp(26px,2.65vw,40px)}
+.cover-photo img {object-fit:cover!important}
+.project-detail p,.project-subtitle {font-size:.95rem}
+.project-card summary,.filterbar button {min-height:44px}
+:focus-visible {outline:3px solid var(--accent2);outline-offset:3px}
+.project-card:focus-within,.feature:focus-visible {border-color:var(--accent)}
+@media(max-width:850px) {
+ .intro {grid-template-columns:minmax(0,1fr)}
+ .feature img {aspect-ratio:2.15}
+ .feature div {padding:15px 20px}
+}
+@media(max-width:400px) {
+ .intro h1 {font-size:clamp(3rem,15vw,4rem)}
+ .intro-actions a {flex:1 1 auto}
+}
